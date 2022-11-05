@@ -86,6 +86,9 @@ public class MahasiswaBeraksi {
 
 
 
+
+
+
 ### 2.   Implementasikan java code diagram class berikut:
 
 ![Gambar 3](Screenshoot/ss3.png)
