@@ -1,4 +1,4 @@
-# Tugas Pertemuan 6
+# Tugas Pertemuan 5
 ## Pemrograman Orientasi Objek
 
 ```sh
@@ -163,27 +163,25 @@ public class Programmer extends Pegawai{
 }
 ```
 
-#### D. File MahasiswaBeraksi.java
-* **Class MahasiswaBeraksi (Main):**
+#### D. File PegawaiBeraksi.java
+* **Class PegawaiBeraksi (Main):**
 ```java
-public class MahasiswaBeraksi {
-    public static void main(String[] args){
-    
-    // Membuat object
-    Mahasiswa anton = new Mahasiswa();
-
-    /* memanggil atribut dan memberi nilai */
-    anton.setNim("10102020");
-    anton.nama = "Anton Santoso";
-    anton.jenisKelamin = "Laki-laki";
-    anton.umur = 28;
-    anton.alamat = "Bekasi Kota";
-    anton.Setjurusan("Informatika");
-    anton.cetakInfo();
-    System.out.println("Nim: " + anton.getNim());
-    System.out.println("Jurusan: " + anton.getJurusan());
+public class PegawaiBeraksi {
+    public static void main(String[] args) {
+        //Membuat Objek
+        Manager manager = new Manager();
+        manager.Nama = "Beni";
+        manager.GajiPokok = 5000000;
+        manager.cetakinfo();
+        manager.cetakTunjangan();
+        System.out.println("========================");
+        Programmer programer = new Programmer();
+        programer.Nama = "Amar";
+        programer.GajiPokok = 8000000;
+        programer.cetakinfo();
+        programer.cetakBonus();
     }
-} 
+}
 ```
 
 * **Hasil output program:**
